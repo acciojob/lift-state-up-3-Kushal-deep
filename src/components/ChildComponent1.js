@@ -1,14 +1,14 @@
 
 import React from "react";
 
-const ChildOne =({selectedOption,handleSelect})=>{
+const ChildComponent1 =({selectedOption,handleSelect})=>{
   return (
     <>
     <h2>Child Component 1</h2>
-    <button onClick={()=>handleSelect("option 1")}>option 1</button>
+    <button onClick={()=>handleSelect("Option 1")}>option 1</button>
     </>
 
   )
 }
 
-export default ChildOne;
+export default ChildComponent1;

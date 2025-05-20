@@ -1,12 +1,12 @@
 
  import React from "react";
-const ChildTwo =({selectedOption,handleSelect}) =>{
+const ChildComponent2 =({selectedOption,handleSelect}) =>{
   return (
     <>
     <h2>Child Component 2</h2>
-    <button onClick={()=>handleSelect("option 2")}>option 2</button></>
+    <button onClick={()=>handleSelect("Option 2")}>option 2</button></>
   )
 }
 
 
-export default ChildTwo;
+export default ChildComponent2;
