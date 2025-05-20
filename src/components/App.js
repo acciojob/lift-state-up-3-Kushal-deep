@@ -6,7 +6,7 @@ import ChildComponent2 from "./ChildComponent2";
 
 const App = () => {
 
-  const [selectedOption,setselectedOption]=useState();
+  const [selectedOption,setselectedOption]=useState("");
 
   const handleSelect =(option)=>{
     setselectedOption(option)
