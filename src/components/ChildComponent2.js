@@ -4,7 +4,7 @@ const ChildComponent2 =({selectedOption,handleSelect}) =>{
   return (
     <>
     <h2>Child Component 2</h2>
-    <button onClick={()=>handleSelect("Option 2")}>option 2</button></>
+    <button onClick={()=>handleSelect("Option 2")}>Option 2</button></>
   )
 }
 
